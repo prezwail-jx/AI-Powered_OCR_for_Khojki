@@ -4,6 +4,8 @@ A small, evidence-preserving pipeline for historical Khojki: PDF rendering,
 geometric line detection, OpenAI visual transcription, Unicode validation,
 human-confirmed references, codepoint CER and stage-level error analysis.
 
+Repository: https://github.com/prezwail-jx/AI-Powered_OCR_for_Khojki
+
 ## Measured result
 
 | Printed evaluation (PDF page 17) | Result |
@@ -56,6 +58,10 @@ The **code package** contains source, tests and textual reports. The separate
 frozen references and diagnostic records. Neither includes the full input PDF.
 Overlay both zip files into a new project directory, then install as above.
 Do not publish the scan-derived evidence package without separate permission.
+
+Alternatively, clone this repository (which includes `code-index.json`), then
+extract only the privately supplied `review-evidence.zip` into its root before
+installing and running the replay. The evidence archive is not hosted publicly.
 
 ```bash
 .venv/bin/python scripts/reproduce_offline.py --output outputs/reviewer-replay
@@ -155,6 +161,8 @@ confirmed invoices. T12-T14 offline work adds no API charges.
 
 **T15 local acceptance is complete**: the user explicitly accepted the delivered
 scope and limitations. The final code/private-evidence packages are under
-`outputs/t15-delivery/`; the T14 package is retained as history. GitHub publication,
-code-license selection and sending the evaluator a repository link remain separate,
-unperformed steps. No repository, public upload or email submission is created here.
+`outputs/t15-delivery/` in the author's local workspace; the T14 package is retained
+as history. The code repository is now published at the URL above; private scan
+evidence is not published. The acceptance reports describe the earlier local
+acceptance snapshot, before publication. Code-license selection and emailing the
+evaluator remain unperformed steps; publishing this repository does not send an email.
