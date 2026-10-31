@@ -1,0 +1,605 @@
+{
+  "unicode_version": "17.0.0",
+  "characters": [
+    {
+      "codepoint": "0AE6",
+      "name": "GUJARATI DIGIT ZERO",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AE7",
+      "name": "GUJARATI DIGIT ONE",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AE8",
+      "name": "GUJARATI DIGIT TWO",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AE9",
+      "name": "GUJARATI DIGIT THREE",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AEA",
+      "name": "GUJARATI DIGIT FOUR",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AEB",
+      "name": "GUJARATI DIGIT FIVE",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AEC",
+      "name": "GUJARATI DIGIT SIX",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AED",
+      "name": "GUJARATI DIGIT SEVEN",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AEE",
+      "name": "GUJARATI DIGIT EIGHT",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "0AEF",
+      "name": "GUJARATI DIGIT NINE",
+      "category": "Nd",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Gujarati"
+    },
+    {
+      "codepoint": "11200",
+      "name": "KHOJKI LETTER A",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11201",
+      "name": "KHOJKI LETTER AA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11202",
+      "name": "KHOJKI LETTER I",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11203",
+      "name": "KHOJKI LETTER U",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11204",
+      "name": "KHOJKI LETTER E",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11205",
+      "name": "KHOJKI LETTER AI",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11206",
+      "name": "KHOJKI LETTER O",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11207",
+      "name": "KHOJKI LETTER AU",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11208",
+      "name": "KHOJKI LETTER KA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11209",
+      "name": "KHOJKI LETTER KHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1120A",
+      "name": "KHOJKI LETTER GA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1120B",
+      "name": "KHOJKI LETTER GGA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1120C",
+      "name": "KHOJKI LETTER GHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1120D",
+      "name": "KHOJKI LETTER NGA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1120E",
+      "name": "KHOJKI LETTER CA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1120F",
+      "name": "KHOJKI LETTER CHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11210",
+      "name": "KHOJKI LETTER JA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11211",
+      "name": "KHOJKI LETTER JJA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11213",
+      "name": "KHOJKI LETTER NYA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11214",
+      "name": "KHOJKI LETTER TTA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11215",
+      "name": "KHOJKI LETTER TTHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11216",
+      "name": "KHOJKI LETTER DDA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11217",
+      "name": "KHOJKI LETTER DDHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11218",
+      "name": "KHOJKI LETTER NNA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11219",
+      "name": "KHOJKI LETTER TA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1121A",
+      "name": "KHOJKI LETTER THA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1121B",
+      "name": "KHOJKI LETTER DA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1121C",
+      "name": "KHOJKI LETTER DDDA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1121D",
+      "name": "KHOJKI LETTER DHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1121E",
+      "name": "KHOJKI LETTER NA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1121F",
+      "name": "KHOJKI LETTER PA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11220",
+      "name": "KHOJKI LETTER PHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11221",
+      "name": "KHOJKI LETTER BA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11222",
+      "name": "KHOJKI LETTER BBA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11223",
+      "name": "KHOJKI LETTER BHA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11224",
+      "name": "KHOJKI LETTER MA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11225",
+      "name": "KHOJKI LETTER YA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11226",
+      "name": "KHOJKI LETTER RA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11227",
+      "name": "KHOJKI LETTER LA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11228",
+      "name": "KHOJKI LETTER VA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11229",
+      "name": "KHOJKI LETTER SA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1122A",
+      "name": "KHOJKI LETTER HA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1122B",
+      "name": "KHOJKI LETTER LLA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1122C",
+      "name": "KHOJKI VOWEL SIGN AA",
+      "category": "Mc",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1122D",
+      "name": "KHOJKI VOWEL SIGN I",
+      "category": "Mc",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1122E",
+      "name": "KHOJKI VOWEL SIGN II",
+      "category": "Mc",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1122F",
+      "name": "KHOJKI VOWEL SIGN U",
+      "category": "Mn",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11230",
+      "name": "KHOJKI VOWEL SIGN E",
+      "category": "Mn",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11231",
+      "name": "KHOJKI VOWEL SIGN AI",
+      "category": "Mn",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11232",
+      "name": "KHOJKI VOWEL SIGN O",
+      "category": "Mc",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11233",
+      "name": "KHOJKI VOWEL SIGN AU",
+      "category": "Mc",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11234",
+      "name": "KHOJKI SIGN ANUSVARA",
+      "category": "Mn",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11235",
+      "name": "KHOJKI SIGN VIRAMA",
+      "category": "Mc",
+      "combining_class": 9,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11236",
+      "name": "KHOJKI SIGN NUKTA",
+      "category": "Mn",
+      "combining_class": 7,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11237",
+      "name": "KHOJKI SIGN SHADDA",
+      "category": "Mn",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11238",
+      "name": "KHOJKI DANDA",
+      "category": "Po",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11239",
+      "name": "KHOJKI DOUBLE DANDA",
+      "category": "Po",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1123A",
+      "name": "KHOJKI WORD SEPARATOR",
+      "category": "Po",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1123B",
+      "name": "KHOJKI SECTION MARK",
+      "category": "Po",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1123C",
+      "name": "KHOJKI DOUBLE SECTION MARK",
+      "category": "Po",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1123D",
+      "name": "KHOJKI ABBREVIATION SIGN",
+      "category": "Po",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1123E",
+      "name": "KHOJKI SIGN SUKUN",
+      "category": "Mn",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "1123F",
+      "name": "KHOJKI LETTER QA",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11240",
+      "name": "KHOJKI LETTER SHORT I",
+      "category": "Lo",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    },
+    {
+      "codepoint": "11241",
+      "name": "KHOJKI VOWEL SIGN VOCALIC R",
+      "category": "Mn",
+      "combining_class": 0,
+      "decomposition": "",
+      "script": "Khojki"
+    }
+  ]
+}

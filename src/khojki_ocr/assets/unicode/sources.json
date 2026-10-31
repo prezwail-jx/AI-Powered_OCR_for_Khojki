@@ -1,0 +1,57 @@
+{
+  "unicode_version": "17.0.0",
+  "font_repository_commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+  "rules_source": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/#G113410",
+  "sources": {
+    "UnicodeData.txt": {
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "sha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "bytes": 2198209
+    },
+    "Scripts.txt": {
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/Scripts.txt",
+      "sha256": "9f5e50d3abaee7d6ce09480f325c706f485ae3240912527e651954d2d6b035bf",
+      "bytes": 192460
+    },
+    "Unicode-LICENSE.txt": {
+      "url": "https://www.unicode.org/license.txt",
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+      "bytes": 1995
+    },
+    "NotoSansKhojki-Regular.ttf": {
+      "url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosanskhojki/NotoSansKhojki-Regular.ttf",
+      "sha256": "0b50d1f6d4f8c4254095eb3a9a7603444d9f30e21d8dca1305971288b8e5be1b",
+      "bytes": 107856
+    },
+    "Khojki-OFL.txt": {
+      "url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosanskhojki/OFL.txt",
+      "sha256": "82ead5cfe70167960007329171dcffe99886373b3159619e596e84f08890234c",
+      "bytes": 4382
+    },
+    "NotoSansGujarati.ttf": {
+      "url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosansgujarati/NotoSansGujarati%5Bwdth%2Cwght%5D.ttf",
+      "sha256": "9901d8552f1dd5d2c50dbd4caa6f6e174e74e8264f06594ab259ae6e7b1ac428",
+      "bytes": 672904
+    },
+    "Gujarati-OFL.txt": {
+      "url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosansgujarati/OFL.txt",
+      "sha256": "c0b88977aa18b5e4fd05d646d560da89fde61b6581fa4507cb00dd90bd1bf7d4",
+      "bytes": 4384
+    },
+    "NotoSerifKhojki-v2.005.zip": {
+      "url": "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.005/NotoSerifKhojki-v2.005.zip",
+      "sha256": "54fb837cb93766c2d30b2feac5bf1e733288c294926c5e3dd0cb52bf73e5b7f1",
+      "bytes": 1257454
+    },
+    "SerifKhojki-OFL.txt": {
+      "url": "https://raw.githubusercontent.com/notofonts/khojki/02e25bf94664812076be4fa7dd1d688641e4bf8a/OFL.txt",
+      "sha256": "82ead5cfe70167960007329171dcffe99886373b3159619e596e84f08890234c",
+      "bytes": 4382
+    }
+  },
+  "serif_font_extraction": {
+    "archive": "NotoSerifKhojki-v2.005.zip",
+    "member": "NotoSerifKhojki/full/ttf/NotoSerifKhojki-Regular.ttf",
+    "sha256": "f39d53acc4905796a53131aa95c0f79312e1565b9c3c817683592e2e86f1b290"
+  }
+}

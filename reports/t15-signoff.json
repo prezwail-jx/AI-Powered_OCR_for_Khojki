@@ -1,0 +1,26 @@
+{
+  "stage": "t15_user_acceptance",
+  "status": "accepted_local_delivery",
+  "decision": "通过本地验收",
+  "decision_source": "explicit_user_answer_in_conversation",
+  "date": "2026-10-30",
+  "accepted_scope": [
+    "Ten printed lines: original OpenAI predictions, model-assisted user-confirmed reference and CER",
+    "English evaluation, one-page reflection PDF and portable offline reproduction",
+    "Qualitative page-9 detection examples and two untranscribed manuscript challenges",
+    "Separate code/text and private scan-evidence packages; complete PDFs supplied separately"
+  ],
+  "accepted_limits": [
+    "No full manual-box detection metrics or manuscript OCR accuracy",
+    "Selection and anchoring bias; no independent blind expert ground truth",
+    "Unknown annotation duration",
+    "USD 1.1421432 usage estimate plus USD 3.74944 unknown reservation, not confirmed billed cost"
+  ],
+  "deferred_external_steps": [
+    "Git/GitHub repository initialization and publication",
+    "Code-license selection",
+    "Sending the repository link to the evaluator"
+  ],
+  "github_submission_completed": false,
+  "api_calls_authorized_or_made": 0
+}

@@ -1,0 +1,20 @@
+.venv/
+.env
+.env.*
+!.env.example
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+outputs/
+credentials*.json
+service-account*.json
+.DS_Store
+# Scan-derived material is private exercise-review evidence, not public code.
+Khojki_OCR_Take_Home.pdf
+sample_khojki_script_vatiations.pdf
+data/**/crops/
+data/challenges/**/*.png

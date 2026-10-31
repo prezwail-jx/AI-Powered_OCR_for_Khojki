@@ -1,0 +1,51 @@
+# Relative paths are resolved from the working directory.
+pdf: sample_khojki_script_vatiations.pdf
+pages: "1"
+output_dir: outputs
+dpi: 300
+preprocess:
+  deskew: true
+  max_skew_degrees: 5.0
+  deskew_min_gain: 0.10
+  deskew_min_angle: 0.15
+  angle_override: null
+  denoise: false
+  clahe_clip_limit: 2.0
+  clahe_grid_size: 8
+  adaptive_block_size: 51
+  adaptive_c: 15
+  max_page_pixels: 40000000
+line_detection:
+  max_work_width: 1600
+  min_intensity_range: 16
+  background_sigma_ratio: 0.015
+  min_component_height_ratio: 0.004
+  row_center_tolerance: 0.65
+  gutter_min_char_heights: 3.0
+  mark_recovery_margin: 0.55
+  crop_padding_x: 0.25
+  crop_padding_y: 0.20
+recognition:
+  reference_dir: outputs/references-v1
+  reference_files: [vowels.png, consonants.png, marks.png, punctuation.png, digits.png, matrix-01.png, matrix-02.png, matrix-03.png]
+  cache_dir: .cache/recognition
+  ledger_path: .cache/api-budget.json
+  budget_usd: "15"
+  max_attempts: 2
+  retry_base_seconds: 1.0
+  max_retry_delay_seconds: 30.0
+openai:
+  model: gpt-6.1-sol
+  base_url: https://api.openai.com/v1
+  timeout_seconds: 60
+  max_output_tokens: 4096
+  image_detail: original
+  # Fill verified pricing and input-token bound during T08; never guess rates.
+  pricing: null
+deepseek:
+  model: deepseek-flash
+  base_url: https://api.deepseek.com
+  timeout_seconds: 60
+  max_output_tokens: 4096
+  image_detail: original
+  pricing: null

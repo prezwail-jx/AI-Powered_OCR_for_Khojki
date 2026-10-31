@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "khojki-ocr"
+version = "0.1.0"
+description = "A reproducible Khojki OCR assignment pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2,<3", "PyYAML>=6,<7", "PyMuPDF>=1.26,<3",
+  "unicodedata2==17.0.0", "Pillow>=11,<13", "fonttools>=4.55,<5",
+  "uharfbuzz>=0.42,<1", "freetype-py>=2.5,<3",
+  "numpy>=2,<3", "opencv-python-headless>=4.10,<5",
+  "openai>=2,<3", "filelock>=3.16,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+khojki-ocr = "khojki_ocr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+khojki_ocr = ["assets/unicode/*", "assets/fonts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

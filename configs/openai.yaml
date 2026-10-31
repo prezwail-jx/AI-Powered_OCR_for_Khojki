@@ -1,0 +1,32 @@
+# Active route after the user abandoned DeepSeek. Use --provider openai only.
+# Loading this configuration alone does not authorize paid/batch execution.
+pdf: sample_khojki_script_vatiations.pdf
+pages: "17"
+output_dir: outputs
+dpi: 300
+recognition:
+  reference_dir: outputs/references-v1
+  reference_files: [vowels.png, consonants.png, marks.png, punctuation.png, digits.png, matrix-01.png, matrix-02.png, matrix-03.png]
+  cache_dir: .cache/recognition
+  ledger_path: .cache/api-budget.json
+  budget_usd: "15"
+  max_attempts: 1
+  retry_base_seconds: 1.0
+  max_retry_delay_seconds: 30.0
+openai:
+  model: gpt-6.1-sol
+  base_url: https://api.openai.com/v1
+  timeout_seconds: 180
+  max_output_tokens: 4096
+  image_detail: original
+  openai_service_tier: default
+  openai_cache_mode: explicit
+  pricing:
+    model: gpt-6.1-sol
+    # Conservative Standard long-context rates; not an exact invoice estimate.
+    input_per_million_usd: "4"
+    output_per_million_usd: "15"
+    source_url: https://developers.openai.com/api/docs/models/gpt-6.1-sol
+    checked_on: "2026-10-30"
+    max_input_tokens: 922000
+    input_bound_basis: "Official maximum input is 922000 tokens, covering all accepted input including images and Schema; Standard/default and explicit-only cloud caching with no breakpoints."

@@ -1,0 +1,18 @@
+{
+  "unicode_version": "17.0.0",
+  "rules_version": "1.0",
+  "source": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-15/#G113410",
+  "allowed_spaces": ["0020"],
+  "allowed_common_punctuation": ["002E", "002C", "003A", "003B", "0021", "003F", "0028", "0029", "002D", "0027", "0022"],
+  "policy_note": "The punctuation and whitespace lists are project transcription policy, not the entire Unicode repertoire. Preserve raw input; do not transliterate or auto-replace.",
+  "atomic_sequences": [
+    {"sequence": ["11200", "1122C"], "recommended": "11201"},
+    {"sequence": ["11240", "1122E"], "recommended": "11202"},
+    {"sequence": ["11206", "1122C"], "recommended": "11203"},
+    {"sequence": ["11200", "11231"], "recommended": "11205"},
+    {"sequence": ["11200", "11233"], "recommended": "11207"},
+    {"sequence": ["11200", "1122C", "11231"], "recommended": "11207"},
+    {"sequence": ["1122C", "11230"], "recommended": "11232"},
+    {"sequence": ["1122C", "11231"], "recommended": "11233"}
+  ]
+}

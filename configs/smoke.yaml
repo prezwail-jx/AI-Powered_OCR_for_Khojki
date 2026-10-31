@@ -1,0 +1,48 @@
+# T08 only: one row per separately invoked provider, no automatic retry.
+# Credentials are loaded by uv --env-file .env, never stored here.
+pdf: sample_khojki_script_vatiations.pdf
+pages: "17"
+output_dir: outputs
+dpi: 300
+recognition:
+  reference_dir: outputs/references-v1
+  reference_files: [vowels.png, consonants.png, marks.png, punctuation.png, digits.png, matrix-01.png, matrix-02.png, matrix-03.png]
+  cache_dir: .cache/recognition
+  ledger_path: .cache/api-budget.json
+  budget_usd: "15"
+  max_attempts: 1
+  retry_base_seconds: 1.0
+  max_retry_delay_seconds: 30.0
+openai:
+  model: gpt-6.1-sol
+  base_url: https://api.openai.com/v1
+  timeout_seconds: 180
+  max_output_tokens: 4096
+  image_detail: original
+  openai_service_tier: default
+  openai_cache_mode: explicit
+  pricing:
+    model: gpt-6.1-sol
+    # Conservative Standard LONG-context rates. Short-context actual rates are lower.
+    # Explicit-only caching without breakpoints disables cloud cache writes.
+    input_per_million_usd: "4"
+    output_per_million_usd: "15"
+    source_url: https://developers.openai.com/api/docs/models/gpt-6.1-sol
+    checked_on: "2026-10-30"
+    max_input_tokens: 922000
+    input_bound_basis: "Official maximum input is 922000 tokens, bounding all accepted request input including images and hidden/Schema overhead; Standard/default tier, no cloud cache writes. Conservative reservation, not a prediction of actual tokens."
+deepseek:
+  model: deepseek-flash
+  base_url: https://api.deepseek.com
+  timeout_seconds: 180
+  max_output_tokens: 4096
+  image_detail: original
+  pricing:
+    model: deepseek-flash
+    # Peak, cache-miss rates conservatively cover off-peak and cache hits.
+    input_per_million_usd: "0.3"
+    output_per_million_usd: "1.2"
+    source_url: https://api-docs.deepseek.com/quick_start/pricing
+    checked_on: "2026-10-30"
+    max_input_tokens: 2000000
+    input_bound_basis: "Deliberately loose bound above the officially documented 1M total context, covering all accepted image/text/Schema input regardless of whether 1M is decimal or binary; each of the 9 images is also documented at <=1024 image tokens. Not an actual input estimate."

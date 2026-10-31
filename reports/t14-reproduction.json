@@ -1,0 +1,47 @@
+{
+  "stage": "t14_clean_environment_verification",
+  "status": "completed",
+  "reviewer_root": "/private/var/folders/x5/4zy46_p116x_dv3ql7ngy0pc0000gn/T/opencode/t14-reviewer",
+  "raw_replay_report": "outputs/clean-full-replay/reproduction.json",
+  "python": "3.11.18",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "venv_created_new": true,
+  "system_site_packages": false,
+  "api_credentials_unset_for_commands": ["OPENAI_API_KEY", "DEEPSEEK_API_KEY"],
+  "install_commands": [
+    "uv venv --python <author-project>/.venv/bin/python --seed <reviewer-root>/.venv",
+    ".venv/bin/python -m pip install -r requirements-repro.txt",
+    ".venv/bin/python -m pip install -e '.[dev]'"
+  ],
+  "verification_commands": [
+    ".venv/bin/python -m pip check",
+    ".venv/bin/python -m pytest -q --tb=short",
+    ".venv/bin/python scripts/reproduce_offline.py --pdf sample_khojki_script_vatiations.pdf --output outputs/clean-full-replay"
+  ],
+  "test_result": {"passed": 240, "failed": 0, "warnings": 7, "seconds": 29.92},
+  "dependency_check": "No broken requirements found.",
+  "network_blocked_during_replay": true,
+  "original_workspace_reads_blocked_during_replay": true,
+  "source_fallback_allowed": false,
+  "core_outputs_byte_identical": true,
+  "main_cer": {"numerator": 1, "denominator": 253, "decimal": "0.003952569170"},
+  "exact_lines": 9,
+  "total_lines": 10,
+  "image_replay": {"dpi": 300, "pages": [9, 17], "line_counts": [16, 22], "selected_line_ids_hashes_and_geometry_match": true},
+  "api_calls": 0,
+  "new_cost_usd": "0",
+  "reflection": {"pages": 1, "font_size_pt": 10, "text_complete": true, "visually_reviewed": true},
+  "distribution": "Code and textual reports separate from private exercise-review scan evidence; no input PDF in either zip.",
+  "dependencies": {
+    "setuptools": "84.2.1", "pydantic": "2.14.2", "packaging": "26.3", "protobuf": "7.36.2",
+    "Pygments": "2.21.0", "pymupdf4llm": "2.0", "pymupdf_layout": "2.0", "certifi": "2026.10.23",
+    "networkx": "3.6.1", "unicodedata2": "17.0.0", "opencv-python-headless": "4.14.0.94",
+    "filelock": "3.32.7", "onnxruntime": "1.31.1", "pydantic_core": "2.50.2", "openai": "2.54.0",
+    "numpy": "2.4.6", "iniconfig": "2.3.1", "jiter": "0.18.0", "httpcore": "1.0.9", "uharfbuzz": "0.57.0",
+    "wheel": "0.48.0", "pluggy": "1.7.0", "tqdm": "4.70.1", "h11": "0.16.0", "sniffio": "1.3.1",
+    "PyYAML": "6.0.3", "freetype-py": "2.5.1", "pip": "26.2.2", "pytest": "9.2.0", "annotated-types": "0.8.0",
+    "fonttools": "4.68.0", "typing-inspection": "0.4.4", "distro": "1.9.0", "pymupdf": "2.0",
+    "tabulate": "0.10.0", "flatbuffers": "25.12.19", "khojki-ocr": "0.1.0", "httpx": "0.28.1",
+    "typing_extensions": "4.16.0", "psutil": "7.2.2", "pillow": "12.3.0", "anyio": "4.15.1", "idna": "3.20"
+  }
+}
